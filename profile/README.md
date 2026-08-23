@@ -1,5 +1,3 @@
-# Sweden AI Factory
-
 > _Formerly known as Mimer AI Factory_
 
 | [Lesson Library](https://learn.mimer-ai.eu/lessons/)           | [Contact Us](https://mimer-ai.eu/contact-us/)     |
