@@ -11,6 +11,7 @@
 
 ### Recent releases
 <!-- recent_releases starts -->
+
 <!-- recent_releases ends -->
 More [recent releases](https://github.com/sweden-ai-factory/.github/blob/main/releases.md)
 
@@ -19,6 +20,17 @@ More [recent releases](https://github.com/sweden-ai-factory/.github/blob/main/re
 
 ### News & blog
 <!-- blog starts -->
+[Mimer AI Factory becomes Sweden AI Factory](https://mimer-ai.eu/news/2026/08/mimer-ai-factory-becomes-sweden-ai-factory/) - Fri, 21 Aug 2026 07:33:27 +0000
+
+[Putting privacy to the test with Syndata](https://mimer-ai.eu/client-stories/2026/08/putting-privacy-to-the-test/) - 
+
+[Mimer AI Factory at ISC 2026: Driving the conversation on AI Factories and HPC](https://mimer-ai.eu/blog/2026/07/mimer-at-isc-2026/) - 
+
+[Anomalib for industrial quality inspection](https://mimer-ai.eu/short-tutorials/2026/06/anomalib-for-industrial-quality-inspection/) - 
+
+[Exploring Innovation at WARA PS Data Collection Week: A Growing Interest](https://mimer-ai.eu/blog/2026/06/exploring-innovation-at-wara-ps-data-collection-week-a-growing-interest/) - 
+
+[One year of Mimer AI Factory](https://mimer-ai.eu/news/2026/06/one-year-of-mimer-ai-factory/) - Mon, 22 Jun 2026 07:13:13 +0000
 <!-- blog ends -->
 [Read more](https://mimer-ai.eu/news-and-blog/)
 
