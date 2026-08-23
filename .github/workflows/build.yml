@@ -31,7 +31,7 @@ jobs:
         else
           uv run build_readme.py
         fi
-        cat README.md
+        cat profile/README.md
     - name: Commit and push if changed
       run: |-
         git diff
