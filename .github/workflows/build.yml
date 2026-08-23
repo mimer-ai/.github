@@ -23,8 +23,8 @@ jobs:
       with:
         python-version: "3.13"
     - name: Update README
-      # env:
-      #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.SEAIF_RELEASES_TOKEN }}
       run: |-
         if [ "${{ inputs.all }}" = "true" ]; then
           uv run build_readme.py --all
