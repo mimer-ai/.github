@@ -1,0 +1,8 @@
+{
+  "description": "Example of a LLM finetuning to run on the flagship EuroHPC clusters.",
+  "owner": "sweden-ai-factory",
+  "releases": [],
+  "repo": "llm_finetuning_example",
+  "total_releases": 0,
+  "url": "https://github.com/sweden-ai-factory/llm_finetuning_example"
+}
