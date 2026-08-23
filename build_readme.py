@@ -22,7 +22,7 @@ from gql.transport import exceptions
 from gql.transport.aiohttp import AIOHTTPTransport
 
 
-TOKEN = os.environ.get("GITHUB_TOKEN", "")
+TOKEN = os.environ["GITHUB_TOKEN"]
 
 root = pathlib.Path(__file__).parent.resolve()
 
