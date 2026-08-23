@@ -23,6 +23,8 @@ from gql.transport.aiohttp import AIOHTTPTransport
 
 
 TOKEN = os.environ["GITHUB_TOKEN"]
+OWNERS = "owner:sweden-ai-factory"
+BLOG_FEED = "https://mimer-ai.eu/feed/"
 
 root = pathlib.Path(__file__).parent.resolve()
 
@@ -59,8 +61,6 @@ def execute_query(query):
         #     print("  GraphQL network error, retrying...")
         time.sleep(2**attempt)
 
-
-OWNERS = "owner:sweden-ai-factory"
 
 # How many hours back the scheduled (incremental) run looks at. The workflow
 # runs daily, so 20 hours gives a comfortable overlap in case a run is skipped.
@@ -392,7 +392,7 @@ def most_recent_releases(cache):
 
 
 def fetch_blog_entries():
-    entries = feedparser.parse("https://mimer-ai.eu/feed/")["entries"]
+    entries = feedparser.parse(BLOG_FEED)["entries"]
     return [
         {
             "title": entry["title"],
