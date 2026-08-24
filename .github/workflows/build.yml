@@ -27,10 +27,10 @@ jobs:
 
     - name: Check out repo
       uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      env:
-        GRAPHQL_TOKEN: ${{ secrets.SEAIF_RELEASES_TOKEN }}
 
     - name: Update README
+      env:
+        GRAPHQL_TOKEN: ${{ secrets.SEAIF_RELEASES_TOKEN }}
       run: |-
         if [ "${{ inputs.all }}" = "true" ]; then
           uv run --frozen build_readme.py --all
