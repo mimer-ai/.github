@@ -22,7 +22,7 @@ from gql.transport import exceptions
 from gql.transport.aiohttp import AIOHTTPTransport
 
 
-TOKEN = os.environ["GITHUB_TOKEN"]
+TOKEN = os.environ["GRAPHQL_TOKEN"]
 OWNERS = "owner:sweden-ai-factory"
 BLOG_FEED = "https://mimer-ai.eu/feed/"
 
