@@ -20,15 +20,14 @@ jobs:
       contents: read
 
     steps:
-    - name: Check out repo
-      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      with:
-        persist-credentials: false
     - name: Install uv
       uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
       with:
         python-version: "3.13"
-    - name: Update README
+    - name: Check out repo and update README
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        persist-credentials: false
       env:
         GRAPHQL_TOKEN: ${{ secrets.SEAIF_RELEASES_TOKEN }}
       run: |-
@@ -38,8 +37,7 @@ jobs:
           uv run --frozen build_readme.py
         fi
         cat profile/README.md
-    - name: Commit and push if changed
-      run: |-
+
         git diff
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
