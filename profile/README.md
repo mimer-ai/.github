@@ -1,8 +1,24 @@
 > _Formerly known as Mimer AI Factory_
 
-| [Lesson Library](https://learn.mimer-ai.eu/lessons/)           | [Contact Us](https://mimer-ai.eu/contact-us/)     |
-| -------------------------------------------------------------- | ------------------------------------------------- |
-| [Events and Learning](https://mimer-ai.eu/events-and-learning) | [All Services](https://mimer-ai.eu/all-services/) |
+[![Lesson Library][ll-img]][ll-link]
+[![Contact Us][cu-img]][cu-link]
+[![Events and Learning][el-img]][el-link]
+[![All Services][as-img]][as-link]
+
+[ll-img]: https://img.shields.io/badge/Lesson%20Library-FFCC00?style=for-the-badge&logo=wikibooks&logoColor=white
+[ll-link]: https://learn.mimer-ai.eu/lessons/
+
+
+[cu-img]: https://img.shields.io/badge/Contact%20Us-41B883?style=for-the-badge&logo=minutemailer&logoColor=white
+[cu-link]: https://mimer-ai.eu/contact-us/
+
+
+[el-img]: https://img.shields.io/badge/Events%20and%20Learning-897BFF?style=for-the-badge&logo=googlecalendar&logoColor=white
+[el-link]: https://mimer-ai.eu/events-and-learning
+
+
+[as-img]: https://img.shields.io/badge/All%20Services-003399?style=for-the-badge&logo=european-union&logoColor=white
+[as-link]: https://mimer-ai.eu/all-services/
 
 
 <table><tr>
