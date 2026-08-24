@@ -396,8 +396,8 @@ def fetch_blog_entries():
     return [
         {
             "title": entry["title"],
-            "url": entry["link"].split("#")[0],
-            "published": entry["published"].split("T")[0],
+            "url": entry["link"],
+            "published": time.strftime("%d %b %Y", entry["published_parsed"]),
         }
         for entry in entries
     ]
