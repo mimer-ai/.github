@@ -27,9 +27,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.SEAIF_RELEASES_TOKEN }}
       run: |-
         if [ "${{ inputs.all }}" = "true" ]; then
-          uv run build_readme.py --all
+          uv run --frozen build_readme.py --all
         else
-          uv run build_readme.py
+          uv run --frozen build_readme.py
         fi
         cat profile/README.md
     - name: Commit and push if changed
