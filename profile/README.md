@@ -4,7 +4,7 @@
 [![All Services][as-img]][as-link]
 
 [ll-img]: https://img.shields.io/badge/Lesson%20Library-FFCC00?style=for-the-badge&logo=wikibooks&logoColor=white
-[ll-link]: https://learn.mimer-ai.eu/lessons/
+[ll-link]: https://learn.swedenaifactory.se/lessons/
 
 
 [cu-img]: https://img.shields.io/badge/Contact%20Us-41B883?style=for-the-badge&logo=minutemailer&logoColor=white
