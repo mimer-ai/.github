@@ -24,7 +24,7 @@ from gql.transport.aiohttp import AIOHTTPTransport
 
 TOKEN = os.environ["GRAPHQL_TOKEN"]
 OWNERS = "owner:sweden-ai-factory"
-BLOG_FEED = "https://mimer-ai.eu/feed/"
+BLOG_FEED = "https://swedenaifactory.se/feed/"
 
 root = pathlib.Path(__file__).parent.resolve()
 

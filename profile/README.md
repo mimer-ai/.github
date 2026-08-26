@@ -1,5 +1,3 @@
-> _Formerly known as Mimer AI Factory_
-
 [![Lesson Library][ll-img]][ll-link]
 [![Contact Us][cu-img]][cu-link]
 [![Events and Workshops][ew-img]][ew-link]
@@ -10,13 +8,13 @@
 
 
 [cu-img]: https://img.shields.io/badge/Contact%20Us-41B883?style=for-the-badge&logo=minutemailer&logoColor=white
-[cu-link]: https://mimer-ai.eu/contact-us/
+[cu-link]: https://swedenaifactory.se/contact-us/
 
 [ew-img]: https://img.shields.io/badge/Events%20and%20Workshops-897BFF?style=for-the-badge&logo=googlecalendar&logoColor=white
-[ew-link]: https://mimer-ai.eu/events-and-workshops/
+[ew-link]: https://swedenaifactory.se/events-and-workshops/
 
 [as-img]: https://img.shields.io/badge/All%20Services-003399?style=for-the-badge&logo=european-union&logoColor=white
-[as-link]: https://mimer-ai.eu/all-services/
+[as-link]: https://swedenaifactory.se/all-services/
 
 
 <table><tr>
@@ -46,7 +44,7 @@ More [recent releases](https://github.com/sweden-ai-factory/.github/blob/main/re
 
 [One year of Mimer AI Factory](https://swedenaifactory.se/news/2026/06/one-year-of-mimer-ai-factory/) - 22 Jun 2026
 <!-- blog ends -->
-[Read more](https://mimer-ai.eu/news-and-blog/)
+[Read more](https://swedenaifactory.se/news-and-blog/)
 
 </td>
 </tr></table>
